@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.pinimg.com/736x/65/de/27/65de27bc66ff0b5eb1198e5290dabf9e.jpg">
+
+    <link rel="stylesheet" href="css\page.css">
+    <link rel="stylesheet" href="css\style.css">
+
+    <title>الصفحة الرئيسية</title>
+    
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="hamburger" onclick="toggleNavbar()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <div class="search-container">
+            <input placeholder="Search ..." class="search" type="text" id="searchInput"/>
+            <button class="search-btn" onclick="searchFunction()">بحث</button>
+        </div>
+            <a href="home.html" class="sidebar-item" id="sb1">الصفحة الرئيسية</a>
+            <a href="page1.html" class="sidebar-item" id="sb2">مقدمة علم البيئة</a>
+            <a href="page2.html" class="sidebar-item" id="sb3">ديناميكية الجماعة الحيوية</a>
+            <a href="page3.html" class="sidebar-item" id="sb4">الجماعة البشرية (السكانية)</a>
+            <a href="page4.html" class="sidebar-item" id="sb5">مصطلحات وتعاريف</a>
+    </div>
+
+    <div class="main" align="center">
+        <h1>مرحباً بكم في الموقع</h1>
+        
+        <div class="search-container">
+            <input placeholder="Search ..." class="search" type="text" id="searchInput2"/>
+            <button class="search-btn" onclick="searchFunction2()">بحث</button>
+        </div>
+
+        <p>^  البحث عن أي معلومة بالموقع هنا  ^</p>
+    </div>
+   
+</body>
+<script src="search.js"></script>
+</html>
